@@ -162,7 +162,7 @@ http://<your-server-ip>:8069
 
 
 
-## 🔧 Additional Tips & Fixes
+## Additional Tips & Fixes
 
 ### PostgreSQL Access Fix (Optional for Trust)
 
@@ -209,7 +209,7 @@ sudo chown -R furqan1:furqan1 /opt/odoo/addons
 sudo chown -R odoo:odoo /opt/odoo/addons
 
 
-### 📦 Custom Addons Folder Setup
+### Custom Addons Folder Setup
 
 If you create a custom module folder:
 
@@ -223,14 +223,14 @@ Then add this to `addons_path` in `/etc/odoo.conf`:
 addons_path = /opt/odoo/addons, /opt/odoo/custom_addons/fortek_odoo
 
 
-### 🔁 Restart Odoo and Check Logs
+### Restart Odoo and Check Logs
 
 
 sudo systemctl restart odoo
 sudo tail -f /var/log/odoo/odoo.log
 
 
-### 💾 Optional: Increase Disk Space (VirtualBox or Cloud VM)
+### Optional: Increase Disk Space (VirtualBox or Cloud VM)
 
 * Resize disk externally first.
 * Then inside the VM:
@@ -238,6 +238,3 @@ sudo tail -f /var/log/odoo/odoo.log
 
 sudo apt install gparted
 sudo gparted
-
-
-## ✅ Ready!
